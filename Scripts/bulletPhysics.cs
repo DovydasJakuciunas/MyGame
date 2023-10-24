@@ -10,8 +10,13 @@ public class bulletPhysics : MonoBehaviour
     {
         //Create the bullet, Quaternion means no rotation
         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        Destroy (effect, .5f);
+        Destroy (effect, .2f);
         Destroy(gameObject);
+    }
+
+    void Update()
+    {
+        Destroy(gameObject, 3f);
     }
     
 }
