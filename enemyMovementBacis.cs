@@ -5,15 +5,44 @@ using UnityEngine;
 public class enemyMovementBacis : MonoBehaviour
 {
 
-    public int speed;
-    public GameObject player;
-    
+    public float speed;
+
+    Rigidbody2D body;
+    Transform target;
+    Vector2 moveDirection;
+
+    void Awake()
+    {
+        body = GetComponent<Rigidbody2D>();
+    }
+
+    void Start()
+    {
+        target = GameObject.Find("Player").transform;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 localPosition = player.transform.position - transform.position; //Takes the player position from itself
-        localPosition = localPosition.normalized;
-        transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed,localPosition.z * Time.deltaTime * speed);
+       
+        if (target)
+        {
+            Vector3 localPosition = (target.position - transform.position).normalized; //Takes the player position from itself
+            float angle = Mathf.Atan2(localPosition.y, localPosition.x) * Mathf.Rad2Deg - 90f;
+            body.rotation = angle;
+            moveDirection = localPosition;
+        }
+    
     }
+
+    void FixedUpdate()
+    {
+        if(target)
+        {
+          
+            body.velocity = new Vector2(moveDirection.x , moveDirection.y) * speed;
+        }
+    }
+
+
 }
