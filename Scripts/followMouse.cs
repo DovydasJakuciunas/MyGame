@@ -12,7 +12,7 @@ public class followMouse : MonoBehaviour
         //Follows the mosue, Transforming the position as it follows
         var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         
-        //Gets the angle at which the object needs to look at
+        
         //Atan get the angle between where the x and y are
         var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
 
