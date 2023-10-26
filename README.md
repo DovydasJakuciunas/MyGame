@@ -13,3 +13,8 @@ https://www.youtube.com/watch?v=pz98OtOid5U&list=PLx7AKmQhxJFajrXez-0GJgDlKELabQ
 
 Music:
 https://freesound.org/people/szegvari/sounds/594223/, "Battle - Cinematic soundtrack music atmo background.wav" by szegvari, Added as background music.
+
+Game Refrences:
+![VampireSurvivor](https://github.com/DovydasJakuciunas/MyGame/assets/123966236/8e6553e5-90b1-4c0e-a974-2511cd266e6a)
+![NAZS](https://github.com/DovydasJakuciunas/MyGame/assets/123966236/dda6f55f-86d7-47b4-bdb0-8756e97bbc34)
+![Brotato](https://github.com/DovydasJakuciunas/MyGame/assets/123966236/851b0dc3-8ec8-4e83-9a25-c4111b6229e5)
