@@ -20,6 +20,16 @@ public class playerShooting : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if(collision.GetComponent<enemySpawner>())
+        {
+            Destroy(collision.gameObject);
+            Destroy(collision);
+        }
+    }
+
     void Shoot()
     {
         //Initialises the bullet eg. creates it

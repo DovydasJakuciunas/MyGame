@@ -50,5 +50,13 @@ public class enemyMovementBacis : MonoBehaviour
         target = GameObject.Find("Player").transform;
     }
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag.Equals("Bullet"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
 }
