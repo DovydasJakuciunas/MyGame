@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      core_trishot_0: 5333666724917230201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

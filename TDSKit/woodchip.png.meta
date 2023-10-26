@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      woodchip_0: 3180904929863078162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

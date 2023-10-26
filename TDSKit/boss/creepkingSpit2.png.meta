@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      creepkingSpit2_0: -7310868851717862733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

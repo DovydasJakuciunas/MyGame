@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      core_overcharge_0: 7506772485155811540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

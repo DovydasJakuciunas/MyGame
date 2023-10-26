@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8765990105602333338}
   - component: {fileID: 3758125756287303269}
   - component: {fileID: -913703929389427507}
-  - component: {fileID: -717646077049544560}
   - component: {fileID: 2808244263840199754}
   - component: {fileID: 1440592890290706164}
+  - component: {fileID: 3606709178517287070}
+  - component: {fileID: 7182559538489712626}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Enemy
@@ -101,20 +102,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
---- !u!114 &-717646077049544560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4777219205161791160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 116d9da61558c0c43b010fc107983499, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 34
-  data: {fileID: 11400000, guid: a76d4f0e92e84634eb90bb970d9c55d8, type: 2}
 --- !u!50 &2808244263840199754
 Rigidbody2D:
   serializedVersion: 4
@@ -188,3 +175,38 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.22, y: 1.22}
   m_EdgeRadius: 0
+--- !u!95 &3606709178517287070
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4777219205161791160}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7182559538489712626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4777219205161791160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f19d47f14d2d4a4e9b2f49999f50cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 50

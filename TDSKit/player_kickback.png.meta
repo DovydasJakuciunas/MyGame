@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_kickback_0: -5735121462256759964
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

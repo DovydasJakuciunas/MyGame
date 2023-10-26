@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      splatter2_0: -1924569867919760935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3806571423237707246}
   - component: {fileID: -3703326020810371854}
   - component: {fileID: 2746728457641475307}
-  - component: {fileID: -7580112218680682540}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -35,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6607798542010260514
 SpriteRenderer:
@@ -288,16 +287,3 @@ TrailRenderer:
   m_Autodestruct: 1
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
---- !u!114 &-7580112218680682540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4316809714840893234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a1cbee110317e54ca32ae446fafc15e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Damage: 25

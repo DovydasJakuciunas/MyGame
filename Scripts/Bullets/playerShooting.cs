@@ -9,13 +9,6 @@ public class playerShooting : MonoBehaviour
    public GameObject bulletPrefab;
 
    public float bulletForce = 20f;
-   [SerializeField]
-   public int Damage;
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        other.gameObject.GetComponent<Health>().Damage(Damage);
-    }
   
 
     // Update is called once per frame

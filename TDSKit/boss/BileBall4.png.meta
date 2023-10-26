@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BileBall4_0: 5907990247390725159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

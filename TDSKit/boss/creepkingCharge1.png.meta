@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      creepkingCharge1_0: -5467353925521701256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
